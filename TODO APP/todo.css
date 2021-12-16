@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #0066ff;
+}
+header h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.container {
+    padding: 30px 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.inputFeild {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #0066ff;    
+}
+.inputFeild input[type="text"] {
+    padding: 8px 10px;
+    width: 300px;
+    border: 1px solid aqua;
+    margin: 10px;
+}
+.inputFeild input[type="button"] {
+    padding: 8px 16px;
+    border: 1px solid #3333;
+    cursor: pointer;
+    background-color: #0066ff;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#parentList {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#parentList li {
+    border: 1px solid #3333;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+input[type="button"] {
+    padding: 8px 16px;
+    border: 1px solid #3333;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    border-radius: 15px;
+}
