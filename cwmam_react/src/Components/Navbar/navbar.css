@@ -1,5 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
-
+a
+{
+    color: #333;
+    text-decoration: none;
+}
 header
 {
     display: flex;
@@ -31,14 +35,14 @@ header h2 span:nth-child(3)
     align-items: center;
     padding: 5px;
 }
-.links a 
+.links a , .linksDown a
 {
     padding: 5px;
     text-decoration: none;
     color: #333;
     margin: 0px 5px;
 }
-.links a:hover
+.links a:hover .linksDown a:hover
 {
     color: #0066ff;
     /* background-color: #3333; */
@@ -55,23 +59,71 @@ header h2 span:nth-child(3)
 .panel{
     display: none;
 }
-.panel a{
+.panel i{
     color: #333;
+}
+.linksDown
+{
+    display: none;
+}
+.accDown
+{
+    display: none;
 }
 @media screen and (max-width:760px)
 {
-    header {
+    header
+    {
         display: flex;
         text-align: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
-    .menu {
+    .menu
+    {
         display: block;
+        font-size: 24px;
     }
-    .links{
+    .links
+    {
         display: none;
     }
-    .panel{
+    .panel
+    {
         display: block;
+        font-size: 24px;
+    }
+    .linksDown.down
+    {
+        display: block;
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        margin-top: 5px;
+        border-radius: 7px;
+        z-index: 10000;
+    }
+    .linksDown a
+    {
+        display: block;
+        padding: 7px;
+    }
+    .accDown.down
+    {
+        display: block;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        padding: 7px;
+        background-color: #f0f0f0;
+        width: 100%;
+        max-width: 100px;
+        border-radius: 5px;
+        margin-top: 5px;
+        top: 40px;
+        z-index: 10000;
+    }
+    .accDown.down a
+    {
+        display: block;
+        padding: 4px;
     }
 }
