@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
+
+header
+{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+header h2 span:nth-child(1)
+{
+    color: red;
+}
+header h2 span:nth-child(2)
+{
+    color: #333;
+}
+header h2 span:nth-child(3)
+{
+    color: #0066ff;
+}
+.menu 
+{
+    display: none;
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.links a 
+{
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    margin: 0px 5px;
+}
+.links a:hover
+{
+    color: #0066ff;
+    /* background-color: #3333; */
+    transition-delay: 0.3s;
+}
+.links .account a:last-child
+{
+    background-color: #0066ff;
+    color: #fff;
+    border-radius: 15px;
+    padding: 7px;
+    text-align: center;
+}
+.panel{
+    display: none;
+}
+.panel a{
+    color: #333;
+}
+@media screen and (max-width:760px)
+{
+    header {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .menu {
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .panel{
+        display: block;
+    }
+}
