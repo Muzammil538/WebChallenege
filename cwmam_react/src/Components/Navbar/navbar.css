@@ -10,7 +10,8 @@ header
     padding: 5px 10px;
     justify-content: space-around;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #000000;
+    
 }
 header h2 span:nth-child(1)
 {
@@ -18,7 +19,7 @@ header h2 span:nth-child(1)
 }
 header h2 span:nth-child(2)
 {
-    color: #333;
+    color: #f0f0f0;
 }
 header h2 span:nth-child(3)
 {
@@ -39,7 +40,7 @@ header h2 span:nth-child(3)
 {
     padding: 5px;
     text-decoration: none;
-    color: #333;
+    color: #f1f1f1;
     margin: 0px 5px;
 }
 .links a:hover .linksDown a:hover
@@ -60,7 +61,7 @@ header h2 span:nth-child(3)
     display: none;
 }
 .panel i{
-    color: #333;
+    color: #f0f0f0;
 }
 .linksDown
 {
