@@ -4,4 +4,16 @@ h1,h2,h3,a {
 }
 .banner {
     padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.left-side,
+.right-side {
+    width: 50%;
+    display: block;
+}
+.right-side img {
+    width: 400px;
 }

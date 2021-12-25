@@ -1,6 +1,6 @@
 import React from 'react';
 import './banner.css';
-import "../../../../public/Media/banner1.png";
+import Image from "../../../Media/banner1.png"
 
 export default function banner() {
     return (
@@ -10,7 +10,7 @@ export default function banner() {
                 <h2>This is CodeWithMAM</h2>
             </div>
             <div className="right-side">
-                <img src="../../../../public/Media/banner1.png" alt="Imge" />
+                <img src={Image} alt="Imge" />
             </div>
         </div>
         </>
