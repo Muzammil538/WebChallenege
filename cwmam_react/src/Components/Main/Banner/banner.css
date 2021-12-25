@@ -14,6 +14,70 @@ h1,h2,h3,a {
     width: 50%;
     display: block;
 }
+.left-side .banner_text span.right:nth-child(1) {
+    animation: makeColor1;
+    animation-duration: 3s;
+}
+.left-side .banner_text span.right:nth-child(2) {
+    animation: makeColor2;
+    animation-duration: 3s;
+}
+.left-side .banner_text span.right:nth-child(3) {
+    animation: makeColor3;
+    animation-duration: 3s;
+}
+.left-side .banner_text span.right:nth-child(1) {
+    color: red;
+}
+.left-side .banner_text span.right:nth-child(2) {
+    color: #fff;
+}
+.left-side .banner_text span.right:nth-child(3) {
+    color: #0066ff;
+}
 .right-side img {
     width: 400px;
+    position: relative;
+}
+.right-side img.left {
+    animation-name: moveLeft;
+    animation-duration: 3s;
+    animation-direction: normal;
+}
+
+@keyframes makeColor1 {
+    0%{
+        color: #fff;
+    }
+    100%{
+        color: red;
+    }
+}
+@keyframes makeColor2 {
+    0%{
+        color: #3333;
+    }
+    100%{
+        color: #fff;
+    }
+}
+@keyframes makeColor3 {
+    0%{
+        color: #fff;
+    }
+    100%{
+        color: #0066ff;
+    }
+}
+@keyframes moveLeft {
+    0%{
+        right: 100%;
+        display: initial;
+        opacity: 0.3;
+    }
+    100%{
+        right: 0%;
+        display: initial;
+    }
+    
 }
