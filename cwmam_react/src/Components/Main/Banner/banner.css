@@ -14,6 +14,9 @@ h1,h2,h3,a {
     width: 50%;
     display: block;
 }
+.left-side img {
+    height: 300px;
+}
 .left-side .banner_text span.right:nth-child(1) {
     animation: makeColor1;
     animation-duration: 3s;
@@ -38,6 +41,7 @@ h1,h2,h3,a {
 .right-side img {
     width: 400px;
     position: relative;
+   
 }
 .right-side img.left {
     animation-name: moveLeft;
@@ -81,3 +85,12 @@ h1,h2,h3,a {
     }
     
 }
+@keyframes moveTop {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 5%;
+    }
+}
+
