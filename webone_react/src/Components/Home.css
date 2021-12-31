@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+body {
+    background-color: #e6e6e6;
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color: #696969;
+    color: #fff;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+nav ul li , nav li, nav li a{
+    list-style-type: none;
+    padding: 0px 12px;
+    color: #fff;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li.t-Logo a:hover{
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #0066ff;
+}
