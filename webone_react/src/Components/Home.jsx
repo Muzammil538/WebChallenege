@@ -1,10 +1,15 @@
 import React from 'react';
-
-const Home=()=>{
-    <>
-    <h1>Hello</h1>
-    </>
-
+import { Link } from "react-router-dom";
+export default function Home() {
+    return (
+        <>
+            <nav>
+                <ul>
+                    <li> <Link to="./">Home</Link></li>
+                </ul>
+            </nav> 
+        </>
+    )
 }
 
-export default Home;
+
