@@ -38,6 +38,25 @@ h1,h2,h3,a {
 .left-side .banner_text span.right:nth-child(3) {
     color: #0066ff;
 }
+.left-side .introd {
+    display: flex;
+    align-items: center;
+}
+.left-side .introd .demo {
+    max-width: 350px;
+    padding: 5px;
+    background-color: #fff;
+
+}
+.left-side .introd .cloud-text {
+    background-color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 80px;
+    text-align: justify;
+    width: 300px;
+    display: none;
+}
 .right-side img {
     width: 400px;
     position: relative;
