@@ -42,12 +42,7 @@ h1,h2,h3,a {
     display: flex;
     align-items: center;
 }
-.left-side .introd .demo {
-    max-width: 350px;
-    padding: 5px;
-    background-color: #fff;
 
-}
 .left-side .introd .cloud-text {
     background-color: #fff;
     padding: 10px 30px;
@@ -55,12 +50,14 @@ h1,h2,h3,a {
     border-radius: 80px;
     text-align: justify;
     width: 300px;
-    display: none;
+    animation: Look 5s ease-in;
+}
+.right-side {
+    text-align: center;
 }
 .right-side img {
     width: 400px;
     position: relative;
-   
 }
 .right-side img.left {
     animation-name: moveLeft;
@@ -113,3 +110,12 @@ h1,h2,h3,a {
     }
 }
 
+@keyframes Look {
+    0%{
+        display: none;
+        opacity: 0;
+    }
+    100%{
+        display: initial;
+    }
+}

@@ -16,7 +16,7 @@ export default function banner() {
         <div className="left-side">
           <div className="introd">
             <img src={Mam} alt="MAM" />
-            <div className="demo"></div>
+            {/* <div className="demo"></div> */}
             <div className="cloud-text">
               <p>
                 I am the Developer and the C.E.O of CodeWithMAM. This is the
@@ -27,7 +27,7 @@ export default function banner() {
           </div>
           <h2> This is MAM </h2>
           <h2 className="banner_text">
-            {" "}
+            
             And This is <span className="banner_span1">Code</span>
             <span className="banner_span2">With</span>
             <span className="banner_span3">MAM</span>

@@ -11,7 +11,9 @@ header
     justify-content: space-around;
     align-items: center;
     background-color: #000000;
-    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 header h2 span:nth-child(1)
 {
