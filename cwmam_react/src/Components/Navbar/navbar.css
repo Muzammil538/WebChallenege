@@ -15,6 +15,7 @@ header
     top: 0;
     z-index: 1000;
 }
+
 header h2 span:nth-child(1)
 {
     color: red;
@@ -86,6 +87,9 @@ header h2 span:nth-child(3)
         display: block;
         font-size: 24px;
     }
+    .menu span i {
+        color: #f0f0f0;
+    }
     .links
     {
         display: none;
@@ -108,6 +112,7 @@ header h2 span:nth-child(3)
     {
         display: block;
         padding: 7px;
+        color: #333;
     }
     .accDown.down
     {
@@ -128,5 +133,6 @@ header h2 span:nth-child(3)
     {
         display: block;
         padding: 4px;
+        color: #333;
     }
 }

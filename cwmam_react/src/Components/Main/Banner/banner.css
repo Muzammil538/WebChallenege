@@ -8,6 +8,7 @@ h1,h2,h3,a {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    overflow: hidden;
 }
 .left-side,
 .right-side {
@@ -117,5 +118,21 @@ h1,h2,h3,a {
     }
     100%{
         display: initial;
+    }
+}
+
+@media screen and (max-width: 760px)
+{
+    .banner {
+        padding: 15px 25px;
+        display: block;
+        width: 100vw;
+        
+    }
+    .left-side{
+        display: none;
+    }
+    .right-side img {
+        width: 350px;
     }
 }
